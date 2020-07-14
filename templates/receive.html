@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en" style="background-color: #33FFCA; text-align: center; font-family: courier; font-size: 25px">
+    <link href="/static/styles.css" rel="stylesheet">
+
+    <head>
+        <title>SignShare</title>
+    </head>
+
+    <body>
+        <form action="/receive" method="POST">
+            <h2>Email Address:</h2>
+            <div class="form-group">
+                <input autocomplete="off" autofocus class = "form-control" name="email" placeholder="goodperson@email.com" type="text">
+            </div>
+
+            <h2>The person making my sign can reach me at:</h2>
+            <div class="form-group">
+                <input autocomplete="off" autofocus class = "form-control" name="phone" placeholder="609-111-1111" type="text">
+            </div>
+
+             <h2>I would like to pick up _____'s sign: (email only, optional)</h2>
+            <div class="form-group">
+                <input autocomplete="off" autofocus class = "form-control" name="person_req" placeholder="othergoodperson@email.com" type="text">
+            </div>
+
+            <button class="main_button choice" style="margin-top: 75px"type="submit">Find my sign!</button>
+        </form>
+    </body>
+</html>

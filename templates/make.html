@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en" style="background-color: #33FFCA; text-align: center; font-family: courier; font-size: 25px">
+    <link href="/static/styles.css" rel="stylesheet">
+
+    <head>
+        <title>SignShare</title>
+    </head>
+
+    <body>
+        <form action="/make" method="POST">
+
+            <h2>Email Address:</h2>
+            <div class="form-group">
+                <input autocomplete="off" autofocus class = "form-control" name="email" placeholder="goodperson@email.com" type="text">
+            </div>
+
+            <h2>About my sign:</h2>
+            <div class="form-group">
+                <input autocomplete="off" autofocus class = "form-control" name="message" placeholder="My sign will say..." type="text">
+            </div>
+
+            <h2>Where should my sign be picked up from?</h2>
+            <div class="form-group">
+                <input autocomplete="off" autofocus class = "form-control" name="location" placeholder="555 main street...." type="text">
+            </div>
+
+            <h2>The person picking up my sign can reach me at:</h2>
+            <div class="form-group">
+                <input autocomplete="off" autofocus class = "form-control" name="phone" placeholder="609-111-1111" type="text">
+            </div>
+
+            <button style="margin-top: 75px"class="main_button choice" type="submit">Register my sign!</button>
+        </form>
+    </body>
+</html>
